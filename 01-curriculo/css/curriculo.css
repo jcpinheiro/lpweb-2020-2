@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica, monospace;
+	width: 960px;
+	color: #222;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+.cabecalho {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+#email {
+	color: #3b3be6;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 15px;
+}
+
+h2 {
+	background-color: #4e7c2d; 
+	color: #DDD;
+	font-size: 28px;
+
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+
+	/* border-radius: 15px; */
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 43px;
+}
+
+
+.experiencia {
+	text-indent: 4ch;
+}
+
+.enfase {
+	font-weight: 600;
+}
+
+.tec {
+	font-family: monospace;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+
