@@ -30,14 +30,15 @@
 					       placeholder="Nome Completo" autofocus required>
 
 					<label for="email">Email</label>
-					<input type="date" id="email" name="email" required>
+					<input type="email" id="email" name="email" required>
 				</fieldset>
 
 				<fieldset>
 					<legend>Como deseja ser contactado</legend>
-					<label>
-						<input type="radio" name="contato"> WhatsApp
-					</label>
+					<label> 
+					    <input type="radio" name="contato"> WhatsApp
+				    </label>
+					
 
 					<label>
 						<input type="radio" name="contato"> Email
@@ -51,11 +52,12 @@
 				<fieldset>
 					<legend>Mensagem</legend>
 					<label for="msg">Digite a sua Mensagem</label>
-					<textarea mensagem" id="msg"></textarea>
+					<textarea mensagem" id="msg" placeholder="Mensagem aqui ..."></textarea>
 				</fieldset>
 
 
 				<button type="submit" class="btn btn-principal">Registrar Mensagem</button>
+				<button type="reset" class="btn btn-secundario">Limpar Formulário</button>
 
 			</form>
 
