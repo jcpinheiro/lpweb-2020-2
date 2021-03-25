@@ -1,9 +1,8 @@
-
 let nome = document.querySelector('#nome');
 let quantidade = document.querySelector('#quantidade');
 let valor = document.querySelector('#valor');
 
-let form = document.querySelector('.form');
+const form = document.querySelector('.form');
 
 //form.addEventListener('submit', function(event) {
 
@@ -15,13 +14,13 @@ document
 
     let tr = document.createElement('tr');
 
+    
     let inputs = [nome.value, quantidade.value, valor.value];
 /* 
     for(let i = 0; i < inputs.length; i++) {
         let input = inputs[i].value;
     } 
 */
-
     inputs.forEach(function(campo) {
         let td = document.createElement('td');
         td.textContent = campo;

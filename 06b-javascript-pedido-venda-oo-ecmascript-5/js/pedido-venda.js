@@ -84,7 +84,7 @@ function criarTDComBotao(rotulo ) {
 
       let botao = document.createElement('button');
       botao.textContent = rotulo;
-      botao.classList='btn btn-danger btn-sm';
+      botao.classList='btn btn-outline-danger btn-sm';
       
       let td = document.createElement('td');
       td.classList = 'text-center'
